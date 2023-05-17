@@ -1,4 +1,5 @@
 # AED-1
-Programação em Linguagem C \n
+Programação em Linguagem C 
+
 MATHEUS DOS ANJOS PINHEIRO 2015280041 
 MDAP.LIC20@UEA.EDU.BR
