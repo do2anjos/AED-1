@@ -1,0 +1,12 @@
+Se o endereço de vetor[0] é 85800 e cada elemento do vetor ocupa 8 bytes, podemos calcular o endereço da expressão vetor + 6 da seguinte maneira:
+
+O endereço de vetor[0] é 85800, então o endereço de vetor[1] será 85800 + 8 = 85808 (avançando 8 bytes).
+
+Dessa forma, podemos calcular o endereço da expressão vetor + 6 assim:
+
+Endereço de vetor[0] + (6 * tamanho do elemento)
+85800 + (6 * 8)
+85800 + 48
+85848
+
+Portanto, o valor da expressão vetor + 6 é 85848.

@@ -1,0 +1,15 @@
+    int x, y, *p; y = 0; - Neste trecho, declaramos as variáveis x, y e um ponteiro p. Atribuímos o valor 0 para y.
+
+    p = &y; - Aqui, atribuímos o endereço de memória da variável y ao ponteiro p.
+
+    x = *p; - Agora, atribuímos o valor apontado por p (o valor de y) à variável x. Portanto, x receberá o valor 0.
+
+    x = 4; - Nesta linha, atribuímos o valor 4 à variável x. Agora, x passa a ser igual a 4.
+
+    (*p)++; - Incrementamos o valor apontado por p (o valor de y) em 1. Como o valor de y era 0, agora y será 1.
+
+    --x; - Decrementamos o valor de x em 1. Agora, x será igual a 3.
+
+    (*p) += x; - Adicionamos o valor de x ao valor apontado por p (o valor de y). Como x é igual a 3 e y é igual a 1, y será atualizado para 4.
+
+Portanto, ao final do trecho de código, os valores serão: x = 3, y = 4 e p apontará para o endereço de memória de y.
